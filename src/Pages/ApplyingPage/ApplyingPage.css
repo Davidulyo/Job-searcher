@@ -1,0 +1,32 @@
+.applying-page{
+    margin: 0 auto;
+    width: 60vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.apply-form{
+    margin: 200px auto;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coverLetter{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+
+}
+
+.cr{
+    width: 300px;
+}

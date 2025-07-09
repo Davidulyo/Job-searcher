@@ -1,0 +1,50 @@
+.search-page{
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.search-page-upsearch{
+    /* margin: 0 auto; */
+    width: 100vw;
+    align-self: flex-start;
+    justify-self: center;
+    padding: 30px 13%;
+    height: 40vh;
+
+    /* background-image: url('/public/pics/metaGame.jpg');
+    background-size: contain; */
+
+    /* background-color: rgba(117, 209, 219, 0.824); */
+    background: radial-gradient(
+        circle,
+        rgba(117, 209, 219, 0.824),
+        rgba(2, 59, 65, 0.824)
+    );
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.search-page-intro{
+    font-size: 1.7rem;
+    width: 60vw;
+}
+
+.search-form{
+
+}
+.search-form-item{
+    padding: 10px 17px;
+    font-size: 1.5rem;
+    margin-right: 4px;
+}
+
+
+
+

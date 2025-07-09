@@ -1,0 +1,19 @@
+.vacancy-page{
+    z-index: 10;
+}
+
+.vacancy-page-body{
+    margin: 0 auto; 
+
+    width: 70vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.vacancy-page-right{
+    display: flex;
+    flex-direction: column;
+}

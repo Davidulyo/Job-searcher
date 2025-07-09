@@ -1,0 +1,67 @@
+/* partners */
+
+
+.search-page-our-partners{
+    width: 80vw;
+    /* padding: 0 13%; */
+
+    /* background-color: rgb(132, 95, 69) ; */
+    margin: 50px auto;
+    /* padding: 50px auto; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.partners-box{
+
+    margin: 50px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.partner-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(126, 154, 91);
+    /* background-color: rgb(255, 202, 202); */
+
+    /* width: calc(100% / 5); */
+    /* height: 100px; */
+
+    margin-left: 30px;
+    padding: 5px;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.vac-num{
+    margin: 4px;
+    padding: 0 11px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    /* bottom: -175px;
+    right: 0;
+    left: 100px; */
+    color: white;
+    border-radius: 50%;
+    background-color: #ff3232;
+    /* background-color: #ff4949; */
+
+    font-size: 2rem;
+}
+
+.partner-logo{
+    object-fit: contain;
+    width: 200px;
+    height: 150px;
+}
+
+.company-logo{
+    width: 100%;
+}

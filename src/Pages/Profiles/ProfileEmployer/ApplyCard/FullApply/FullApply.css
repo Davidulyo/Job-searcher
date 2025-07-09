@@ -1,0 +1,31 @@
+.full-apply{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    /* color: beige; */
+    color: rgb(58, 58, 58);
+
+}
+
+.apply-text span{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.apply-text h2{
+    margin-top: 10px;
+    color: black;
+}
+
+.back-btn{
+    margin-right: 50px;
+    align-self: flex-end;
+}
+
+.some-span{
+    text-decoration: underline;
+    font-style: italic;
+    color: black;
+}

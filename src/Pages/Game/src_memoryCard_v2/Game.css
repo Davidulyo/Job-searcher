@@ -1,0 +1,27 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    color: rgb(189, 17, 32);
+    object-fit: cover;
+}
+
+body{
+    background-image: url('/public/pics/back.jpg');
+    background-size: cover;
+} */
+
+.app{
+    margin: 0 auto;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('/src/Pages/Game/src_memoryCard_v2/pics/mainBack.jpg');
+    /* object-fit: fill; */
+
+}
+
+/* body{
+    background-image: url('/public/pics/back.jpg');
+} */

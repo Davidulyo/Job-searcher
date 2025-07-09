@@ -1,0 +1,79 @@
+
+.find-job-page{
+    padding: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+/* find job */
+
+.find-jobs-results{
+
+    width: 60vw;
+    /* height: 80vh; */
+    margin: 0 auto;
+
+    /* background-color:rgba(89, 255, 73, 0.361); */
+}
+
+.find-jobs-box{
+    padding: 20px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.job-card{
+
+    background-color: rgb(87, 141, 130);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+    margin: 20px auto;
+    padding: 20px 30px;
+    width: 50vw;
+    /* width: 100%; */
+    /* height: 180px; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* border: 1px solid black; */
+}
+
+.job-card-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-card-right{
+    width: 50%;
+    padding: 10px;
+
+    font-size: 1.5rem;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.find-job-logo{
+    width: 50%;
+}

@@ -1,0 +1,13 @@
+.searcher-form{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    width: 25vw;
+    height: 300px;
+    padding: 20px 30px;
+    /* background-color: rgb(61, 125, 125); */
+    background-color: #7E9A5B;
+    
+
+    display: flex;
+    flex-direction: column;
+}

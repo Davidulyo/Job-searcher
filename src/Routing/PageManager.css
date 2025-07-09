@@ -1,0 +1,9 @@
+.page-content{
+    width: 100vw;
+    /* height: 90vh; */
+    background-color: rgb(240, 240, 240);
+    
+    /* opacity: 100%; */
+    /* background-image: url('/public/pics/back.jpg'); */
+    /* object-fit: fill; */
+}

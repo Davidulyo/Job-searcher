@@ -1,0 +1,38 @@
+.header{
+    width: 100vw;
+    padding: 0 8%;
+    /* position: fixed; */
+
+    background-color: #384643;
+
+    font-family: 'IBM Plex Serif', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-link{
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    font-size: 1.4rem;
+}
+
+.header-link:hover{
+    background-color:white ;
+    color: #384643;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.logout{
+    background-color: #384643;
+    border: none;
+    color: rgb(61, 142, 67);
+}
+
+.header-logo{
+    width: 150px;
+}   

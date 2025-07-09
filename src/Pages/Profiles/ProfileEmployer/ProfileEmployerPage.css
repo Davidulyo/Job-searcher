@@ -1,0 +1,164 @@
+.profile-employer-page{
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+/* .add-new-vacancy-form{
+    margin: 50px auto;
+    width: 600px;
+    height: 80vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+.add-new-vacancy-subpage{
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.add-new-vacancy-form{
+    margin: 50px auto;
+    width: 70vw;
+    height: 80vh;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-left{
+    width: 40%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+}
+
+.form-right{
+    width: 60%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.my-vacancy-section{
+    margin: 50px auto;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.vacancy-card{
+    border: 1px solid black;
+}
+
+.my-profile-page{   
+    margin: 50px auto;
+    width: 60vw;
+    height: 80vh;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(185, 185, 185);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.short-vacancies-part{
+    width: 300px;
+    height: 80vh;
+    border: 1px solid black;
+}
+
+.full-vacancies-card{
+    width: 50vw;
+
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* add new vacancy */
+
+.add-vacancy-form-label{
+    margin-top: 25px;
+    font-size: 1.2rem;  
+}
+
+.add-vacancy-form-item{
+    font-size: 1.3rem;
+    width: 300px;
+    /* height: 70px; */
+}
+
+.add-vacancy-form-textarea{
+    padding: 10px;
+    font-style: italic;
+}
+
+.submitter{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    align-self: center;
+    /* margin-left: 40px; */
+}
+
+.submitter:hover{
+    color: green;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* up  */
+
+.up-main{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.up-header{
+    padding: 0 5px;
+    background-color: rgb(112, 112, 112);
+}
+
+.up-up{
+    padding: 15px;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.up-up li{
+    color: rgb(33, 33, 33);
+}
+
+.and{
+    color: rgb(10, 54, 10);
+}

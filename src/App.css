@@ -1,0 +1,76 @@
+
+.app{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+
+hr{
+  /* border: 1px solid rgb(174, 255, 243); */
+  border: 1px solid #f0f0f025;
+}
+
+.prevArrow{
+  width: 30px;
+}
+
+.nextArrow{
+  rotate: 180deg;
+  width: 30px;
+}
+
+/* select position drop menu */
+.kRZswa{
+  width: 80vw !important;
+}
+
+.opt-item{
+
+}
+
+/* msg server */
+
+.msg-server{
+  /* padding: 5px 10px; */
+  background-color: rgba(131, 142, 203, 0.733);
+}
+
+/* loading animation */
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #ca1b1b;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #c01a1a transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,62 @@
+/* last jobs */
+
+.search-page-last-jobs{
+    width: 80vw;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: rgb(176, 151, 198); */
+}
+
+.last-jobs-box{
+    margin: 50px auto;
+
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.last-job-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+
+
+    margin: 10px;
+    /* background-color: rgb(194, 194, 194);    */
+    background-color: rgb(87, 141, 130);
+    /* background-color: rgb(208, 200, 190); */
+    /* border: 1px solid black; */
+
+    width: 300px;
+    /* width: calc(100% / 5); */
+    height: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.left-last{
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.right-last{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-logo{
+    width: 60%;
+}

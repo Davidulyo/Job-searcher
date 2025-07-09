@@ -1,0 +1,27 @@
+.board{
+    margin: 0 auto;
+    width: 98vw;
+    height: 98vh;
+    position: absolute;
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #056eaf0f;
+    z-index: 8;
+}
+
+.game-message{
+    bottom: 200px;   
+    z-index: 9;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+
+    background-color: rgb(75, 180, 237);
+    color: rgb(132, 19, 19);
+    font-size: 4rem;
+    border: 4px solid black;
+    border-radius: 20px;  
+}

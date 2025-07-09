@@ -1,0 +1,50 @@
+.info-list{
+    margin: 30px 0;
+    /* margin-right: 50px; */
+    padding: 20px 30px;
+    width: 50vw;
+    background-color: bisque;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    opacity: 80%;
+}
+
+.info-block{
+    width: 40vw;
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.block-list-item{
+    line-height: 2.2rem;
+}
+
+.apply-btn{
+    margin-top: 10px;
+    color: black;
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.apply-btn:hover{
+    transition: 0.3s;
+    cursor: pointer;
+
+    color: #ffffff;
+    background-color: black;
+}
+
+.how-many-applies{
+    margin: 10px 0;
+}
+
+.num{
+    font-size: 1.5rem !important;
+    background-color: green;
+}

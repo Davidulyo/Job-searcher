@@ -1,0 +1,57 @@
+.card{
+    position: relative;
+}
+
+.card-grid{
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.btn{
+    padding: 3px 6px;
+}
+
+.card img{
+    /* width: 100%;  */
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    object-fit: fill;
+}
+
+.front, .back{
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+    margin-right: 10px;
+}
+
+/* rotate animation */
+
+.card .front{
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+    /* z-index: -1; */
+}
+
+.flipped .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+    background-color: #edb482;
+    /* z-index: 2; */
+}
+
+.card .back{
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+    background-color: #DCCAB2;    
+}
+
+.flipped .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+

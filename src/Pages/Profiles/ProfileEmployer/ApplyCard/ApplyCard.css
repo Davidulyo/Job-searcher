@@ -1,0 +1,87 @@
+/* applying */
+
+.applies-part{
+    padding: 15px;
+    /* height: 300px; */
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.apply-short-describe{
+
+}
+
+.just-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(126, 154, 91);
+    /* background-color: rgb(255, 202, 202); */
+
+    /* width: calc(100% / 5); */
+    /* height: 100px; */
+
+    margin-left: 30px;
+    padding: 5px;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.vac-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.vac{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.apply{
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.show-btn{
+    width: 80px;
+    border-radius: 30%;
+    padding: 2px;
+    background-color: rgb(36, 32, 32);
+    display: block;
+    margin-left: 20px;
+}
+
+.apply-line{
+    padding: 10px 20px;
+    background-color: rgba(240, 248, 255, 0.404);
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.line{
+    width: 100px;
+    padding: 10px;
+}
+
+.apply-cover{
+    display: flex;
+    flex-direction: row;
+}
